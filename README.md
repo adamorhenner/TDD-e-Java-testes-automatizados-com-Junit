@@ -21,11 +21,11 @@ Instalação do JUnit via pom.xml :
 
 ### Criando classe de teste:
 
-![Untitled](TDD%20e%20Java%20Testes%20automatizados%20com%20JUnit%20b458dc15c5014a02983679225f1e1c6c/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/53570263/152577158-a2624fbc-6bbf-4afa-8f84-89335f04924f.png)
 
-![Untitled](TDD%20e%20Java%20Testes%20automatizados%20com%20JUnit%20b458dc15c5014a02983679225f1e1c6c/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/53570263/152577221-252a9acc-4c94-4c63-a7b8-a49d189cca74.png)
 
-![Untitled](TDD%20e%20Java%20Testes%20automatizados%20com%20JUnit%20b458dc15c5014a02983679225f1e1c6c/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/53570263/152577262-1b356562-31ce-43d4-8db5-574942cf4f28.png)
 
 A classe criada, iremos criar metodos que vão se basear nas possibilidades
 
@@ -77,11 +77,11 @@ A classe criada, iremos criar metodos que vão se basear nas possibilidades
 
 # Test Driven-Developement (TDD)
 
-![Untitled](TDD%20e%20Java%20Testes%20automatizados%20com%20JUnit%20b458dc15c5014a02983679225f1e1c6c/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/53570263/152577307-786a9740-6ca0-4889-862a-4be1305a3677.png)
 
 Nós basicamente iremos iniciar nosso codigo pelas classe de teste
 
-![Untitled](TDD%20e%20Java%20Testes%20automatizados%20com%20JUnit%20b458dc15c5014a02983679225f1e1c6c/Untitled%204.png)
+![Untitled 4](https://user-images.githubusercontent.com/53570263/152577367-fed53f23-51f0-4359-8027-bc552178cae9.png)
 
 Poderia criar uma classe parecida, chamada `ReajusteService`. Então se vou ter uma classe `ReajusteService`, a classe de teste vai se chamar `ReajusteServiceTest` (iniciaremos por ela)
 
@@ -144,7 +144,7 @@ public class ReajusteService {
 
 Agora se você reparar está tudo compilando. Se está tudo compilando já posso rodar o teste. Se eu rodar esse teste vai passar ou vai falhar? É óbvio que vai falhar. E ele dá a mensagem, esperava 1030, mas veio mil.
 
-![Untitled](TDD%20e%20Java%20Testes%20automatizados%20com%20JUnit%20b458dc15c5014a02983679225f1e1c6c/Untitled%205.png)
+![Untitled 5](https://user-images.githubusercontent.com/53570263/152577452-a514c798-de4e-4e75-be0b-088931bf5b8e.png)
 
 O código está errado, eu estou chamando o `concederReajuste`, mas o salário não mudou, continuou mil. Por que falhou? Óbvio que não implementei. Agora é que vou implementar o algoritmo. O teste serviu como um rascunho, como um template para ir criando o meu código, para ir gerando o design de como quero o meu código.
 
